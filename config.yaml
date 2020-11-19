@@ -34,7 +34,7 @@ monitors:
     name: crawler.ninja
     url: 'https://crawler.ninja/'
 
-  - id: why-no-https-com
+  - id: whynohttps-com
     name: whynohttps.com
     url: 'https://whynohttps.com/'
 
