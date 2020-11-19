@@ -5,7 +5,7 @@ settings:
   daysInHistogram: 90 # number of days you want to display in histogram
 
   allmonitorsOperational: 'All Systems Operational'
-  notAllmonitorsOperational: 'Not All Systems Operational'
+  notAllmonitorsOperational: 'Some Systems Non-Operational'
   monitorLabelOperational: 'Operational'
   monitorLabelNotOperational: 'Not Operational'
   monitorLabelNoData: 'No data'
@@ -14,23 +14,30 @@ settings:
   dayInHistogramNotOperational: 'Some checks failed'
 
 monitors:
-  - id: workers-cloudflare-com # unique identifier
-    name: workers.cloudflare.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
+  - id: scotthelme-ghost-io
+    name: scotthelme.ghost.io
+    url: 'https://scotthelme.ghost.io/'
 
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
-    method: GET
-    expectStatus: 200
+  - id: scotthelme-co-uk
+    name: scotthelme.co.uk
+    url: 'https://scotthelme.co.uk'
 
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
-    method: GET
-    expectStatus: 200
+  - id: report-uri-com
+    name: report-uri.com
+    url: 'https://report-uri.com/'
+
+  - id: securityheaders-com
+    name: securityheaders.com
+    url: 'https://securityheaders.com/'
+
+  - id: crawler-ninja
+    name: crawler.ninja
+    url: 'https://crawler.ninja/'
+
+  - id: why-no-https-com
+    name: whynohttps.com
+    url: 'https://whynothttps.com/'
+
+  - id: httpforever-com
+    name: httpforever.com
+    url: 'https://httpforever.com/'
