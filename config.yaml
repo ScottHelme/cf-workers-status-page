@@ -36,8 +36,8 @@ monitors:
 
   - id: why-no-https-com
     name: whynohttps.com
-    url: 'https://whynothttps.com/'
+    url: 'https://whynohttps.com/'
 
   - id: httpforever-com
     name: httpforever.com
-    url: 'https://httpforever.com/'
+    url: 'http://httpforever.com/'
