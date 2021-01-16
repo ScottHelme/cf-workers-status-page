@@ -42,3 +42,7 @@ monitors:
   - id: httpforever-com
     name: httpforever.com
     url: 'http://httpforever.com/'
+
+  - id: pi-hole
+    name: doh.scotthelme.co.uk
+    url: 'https://doh.scotthelme.co.uk/dns-query?dns=q80BAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB'
